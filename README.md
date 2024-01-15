@@ -1,6 +1,6 @@
 # Breast-Cancer-ML
 Breast Cancer Classification & Prediction using Machine Learning Framework
-## ![Breast-Cancer](https://tse4.mm.bing.net/th?id=OIP.2ickM6j-W8NcEtf5LYG8JQHaEK&pid=Api&P=0&h=180)
+## ![Breast-Cancer](https://tse4.mm.bing.net/th?id=OIP.2ickM6j-W8NcEtf5LYG8JQHaEK&pid=Api&P=0&h=560)
 
 # Project Objective 
 Generate a good machine Learning model that can be used to classify patient with Breast Cancer from any input preprocessing data (DET) .

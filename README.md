@@ -61,7 +61,7 @@ Breast cancer is a cancer that develops from breast tissue. Signs of breast canc
          SQLAlchemy to setup the database connection
          FLASK to host the data and the webpage
 ## App.py
-   ### ![app.py]https://github.com/fahr-khadija/project3/blob/main/database_app.py)
+   ### ![app.py]app.py)
          
 
 

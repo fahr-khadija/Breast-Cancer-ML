@@ -1,9 +1,6 @@
 # Breast-Cancer-ML
 Breast Cancer Prediction &amp;Classification using Machine Learning
 # Energy Analysis Dashboard
-
-
-
 ## ![Breast-Cancer](https://tharawat.org/wp-content/uploads/2022/12/Website-header-e1670259531766-2048x901.png)
 
 # Project Objective 

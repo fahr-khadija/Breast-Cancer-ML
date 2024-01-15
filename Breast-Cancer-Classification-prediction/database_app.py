@@ -12,7 +12,7 @@ from flask_cors import CORS
 # Database Setup
 #################################################
 
-engine = create_engine('postgresql://postgres:postgres@localhost:5432/climate_change')
+engine = create_engine('postgresql://postgres:postgres@localhost:5432/Breast_cancer')
 
 # reflect an existing database into a new model
 Base = automap_base()
@@ -21,8 +21,7 @@ Base = automap_base()
 Base.prepare(autoload_with=engine)
 
 # Save references to each table
-climate = Base.classes.climate
-
+Breast_Cancer_table = Base.classes.breast_cancer_table 
 # Create our session (link) from Python to the DB
 session = Session(engine)
 
@@ -54,10 +53,10 @@ def welcome():
 @app.route("/all_data")
 def all_data():
 
-    climate_data = pd.read_sql_table('climate', engine)
+    Breast_Cancer_data = pd.read_sql_table('Breast_Cancer', engine)
     
 #return json data   
-    return jsonify({'projectdata': climate_data.to_dict(orient='records')})
+    return jsonify({'projectdata': Breast_Cancer.to_dict(orient='records')})
 
 #close session
 session.close()

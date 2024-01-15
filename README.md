@@ -31,7 +31,7 @@ Breast cancer is a cancer that develops from breast tissue. Signs of breast canc
       Python script including the model optimization and evaluation process showing iterative changes made to the model and the resulting changes in model performance   
   ### Proposal model for early prediction of cancer 
     
-## ![image](https://www.researchgate.net/profile/Nafees-Farooqui/publication/326521820/figure/fig1/AS:650529625624586@1532109757431/Proposed-Model-for-the-Early-Prediction-of-Breast-Cancer.png )
+![image](https://www.researchgate.net/profile/Nafees-Farooqui/publication/326521820/figure/fig1/AS:650529625624586@1532109757431/roposed-Model-for-the-Early-Prediction-of-Breast-Cancer.png)
 
  ## Steps to build a simple web page using Flask:
    ###  1. Create mookup page:
@@ -43,7 +43,7 @@ Breast cancer is a cancer that develops from breast tissue. Signs of breast canc
    ###  2. Create Project Structure:
         ◦ Create a new folder for the project.Project3
         ◦ Inside the project folder, create the following structure:
-          /Project3
+          /Project
               /static
                   /css
                      style.css

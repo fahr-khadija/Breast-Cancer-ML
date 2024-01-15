@@ -1,6 +1,6 @@
 # Breast-Cancer-ML
 Breast Cancer Classification & Prediction using Machine Learning Framework
-## ![Breast-Cancer](https://tharawat.org/wp-content/uploads/2022/12/Website-header-e1670259531766-2048x901.png)
+## ![Breast-Cancer](https://fr.images.search.yahoo.com/search/images;_ylt=AwrirvK7uqRlxxgYQ5NlAQx.;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMjExNDcxNjAwNQRfcgMyBGZyA21jYWZlZQRmcjIDcDpzLHY6aSxtOnNiLXRvcARncHJpZANCYlhHZUVRaVRMQ2psb1R2TjNMb3JBBG5fcnNsdAMwBG5fc3VnZwMxMARvcmlnaW4DZnIuaW1hZ2VzLnNlYXJjaC55YWhvby5jb20EcG9zAzAEcHFzdHIDBHBxc3RybAMwBHFzdHJsAzMxBHF1ZXJ5A2JyZWFzdCUyMGNhbmNlciUyMG1hY2hpbmUlMjBsZWFybmluZyUyMAR0X3N0bXADMTcwNTI5NDYzNA--?p=breast+cancer+machine+learning+&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&ei=UTF-8&x=wrt&type=E210FR91166G0)
 
 # Project Objective 
 Generate a good machine Learning model that can be used to classify patient with Breast Cancer from any input preprocessing data (DET) .
@@ -22,7 +22,7 @@ Breast cancer is a cancer that develops from breast tissue. Signs of breast canc
 ![flask_development_server_diagram](https://github.com/fahr-khadija/project3/assets/100168693/db652e80-600e-4494-a9c7-d2fe95571fde)
  ## Project structure
   ### Proposal model for early prediction of cancer 
-   ![image](https://www.researchgate.net/profile/Nafees-Farooqui/publication/326521820/figure/fig1/AS:650529625624586@1532109757431/Proposed-Model-for-the-Early-Prediction-of-Breast-Cancer.png )
+   ## ![image](https://www.researchgate.net/profile/Nafees-Farooqui/publication/326521820/figure/fig1/AS:650529625624586@1532109757431/Proposed-Model-for-the-Early-Prediction-of-Breast-Cancer.png )
  ## Steps to build a simple web page using Flask:
    ###  1. Create mookup page:
          we use this mookup app to create our design of the web page  https://app.moqups.com/     

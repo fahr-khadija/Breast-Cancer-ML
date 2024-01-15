@@ -27,8 +27,8 @@ Breast cancer is a cancer that develops from breast tissue. Signs of breast canc
    ###  1. Create mookup page:
          we use this mookup app to create our design of the web page  https://app.moqups.com/     
          https://app.moqups.com/5kKQrQQrlHi8gfX8tSXZGtFCNHLcjGMx/view/page/a3fbc0074
-         
-  ![image](https://github.com/fahr-khadija/project3/assets/100168693/df68a862-7ed7-4e8e-9700-4f87b974d2a2)
+       
+  ![image](C:\Users\hp\Desktop\Breast-Cancer-ML\split_dataset\mookup-Breast-Cancer-web-page.pdf )
 
    ###  2. Create Project Structure:
         ◦ Create a new folder for the project.Project3

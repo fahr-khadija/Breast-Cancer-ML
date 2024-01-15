@@ -21,6 +21,8 @@ Breast cancer is a cancer that develops from breast tissue. Signs of breast canc
 # Interactive web page using Flask 
 ![flask_development_server_diagram](https://github.com/fahr-khadija/project3/assets/100168693/db652e80-600e-4494-a9c7-d2fe95571fde)
  ## Project structure
+  ### Proposal model for early prediction of cancer 
+   ![image](https://www.researchgate.net/profile/Nafees-Farooqui/publication/326521820/figure/fig1/AS:650529625624586@1532109757431/Proposed-Model-for-the-Early-Prediction-of-Breast-Cancer.png )
  ## Steps to build a simple web page using Flask:
    ###  1. Create mookup page:
          we use this mookup app to create our design of the web page  https://app.moqups.com/     

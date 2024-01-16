@@ -62,6 +62,6 @@ Breast cancer is a cancer that develops from breast tissue. Signs of breast canc
          FLASK to host the data and the webpage
 ## App.py
    ### ![app.py]app.py)
-         
-## https://docs.google.com/presentation/d/e/2PACX-1vThMxKQKLQbQB26IGg0-ANk8Tiy3_1vBYeBr8g6o5jXS3xJShCyinN6y-8kFYIzffGUZe0Rm1BaIJPX/pub?start=true&loop=true&delayms=3000
+   ##Project Slide       
+https://docs.google.com/presentation/d/e/2PACX-1vThMxKQKLQbQB26IGg0-ANk8Tiy3_1vBYeBr8g6o5jXS3xJShCyinN6y-8kFYIzffGUZe0Rm1BaIJPX/pub?start=true&loop=true&delayms=3000
 

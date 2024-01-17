@@ -10,7 +10,7 @@ df_part2 = df.iloc[350:]
 
 # Save the two parts into separate CSV files
 part1_file_path = "breast_cancer_data_load.csv"
-part2_file_path = "breast_cancer_data_train.csv"
+part2_file_path = "breast_cancer_data_new.csv"
 
 df_part1.to_csv(part1_file_path, index=False)
 df_part2.to_csv(part2_file_path, index=False)

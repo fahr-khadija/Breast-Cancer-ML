@@ -1,6 +1,6 @@
 Libraries
 
-Python 3.7.7
+Python 11.7.7
 Numpy 1.21.6
 SciKit-Learn 1.0.2
 db-dtypes==1.2.0

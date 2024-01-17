@@ -71,7 +71,7 @@ In our work , we used NN, SVM, and KNN three machine learning techniques to earl
        Test Set:        Accuracy: 94.32%
       Training Set: Accuracy: 99.24%
      ********
-    Analysis:
+ Analysis:
     The SVM performs well on both the test and training sets.
     Optimization results in a slight increase in test accuracy, indicating improvement.
     So we can use the optimized model to predict the new Data 
@@ -80,8 +80,8 @@ In our work , we used NN, SVM, and KNN three machine learning techniques to earl
         Test Set:Precision: 92%,Recall: 92%,F1-score: 92%,Accuracy: 92%
         Training Set:Precision: 100%,Recall: 100%,F1-score: 100%,Accuracy: 100%
         ********
-       Analysis:
-       KNN performs well on both the test and training sets, achieving high precision, recall, and accuracy.
+ Analysis:
+      KNN performs well on both the test and training sets, achieving high precision, recall, and accuracy.
    
 #### • Machines learning techniques evaluation 
 Neural Network (NN) consider the potential overfitting after optimization.we should evaluate 

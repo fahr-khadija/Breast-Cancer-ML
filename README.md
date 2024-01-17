@@ -30,11 +30,15 @@ Our workflow ensures an approach to breast tumor analysis, from data collection 
 ![Alt text](https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/img/image-2.png)
 
 ### Flow Implementation 
-    The implementation is doing on the code bellow and it s deeply explained 
-
-https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/breast_cancer_final.ipynb
+    The implementation is doing on the code bellow and it s deeply explained , you can just load your csv file in first code and for  
 ### Preprocess function 
 https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/preprocess_fct.ipynb
+###  The data used is breast_cancer_data_load.csv  to generate the best ML model 
+ https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/breast_cancer_data_load.csv
+###  The new data used is breast_cancer_data_new.csv to predict with the best ML model already generated 
+ https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/breast_cancer_data_new.csv
+### the finale code is 
+https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/breast_cancer_final.ipynb
 
 ### Results Analysis And Decision
 In our work , we used NN, SVM, and KNN three machine learning techniques to early prevention and detection of breast cancer to find which method performs better that we can used to predict the new data. 

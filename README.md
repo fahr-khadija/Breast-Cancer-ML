@@ -14,8 +14,8 @@ By integrating advanced computational models, we seek to  achieve early and high
 
  ### General Description
 Breast cancer is a cancer that develops from breast tissue. Signs of breast cancer may include a lump in the breast, a change in breast shape, dimpling of the skin, milk rejection, fluid coming from the nipple, a newly inverted nipple, or a red or scaly patch of skin ====for more information you can visit this health links https://en.wikipedia.org/wiki/Breast_cance
-![tumor](img\image.png)  
-![Alt text]( https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/img\image-5.png)
+![tumor](https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/img/image.png)  
+![Alt text]( https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/img/image-5.png)
 ### Analyse breast tumours by Machine Learning 
 Our workflow ensures an approach to breast tumor analysis, from data collection to deploying a predictive model for real-time predictions on new data. We divided on 7 steps :
 
@@ -27,12 +27,18 @@ Our workflow ensures an approach to breast tumor analysis, from data collection 
          6-Best Model Generated 
          7-Predict on new Data 
   #### Schematic workflow diagram
-![Alt text](img\image-2.png)
+![Alt text](https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/img/image-2.png)
 
 ### Flow Implementation 
-    The implementation is doing on the code bellow and it s deeply explained 
-https://github.com/fahr-khadija/Breast-Cancer-ML
-Preprocess function 
+    The implementation is doing on the code bellow and it s deeply explained , you can just load your csv file in first code and for  
+### Preprocess function 
+https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/preprocess_fct.ipynb
+###  The data used is breast_cancer_data_load.csv  to generate the best ML model 
+ https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/breast_cancer_data_load.csv
+###  The new data used is breast_cancer_data_new.csv to predict with the best ML model already generated 
+ https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/breast_cancer_data_new.csv
+### the finale code is 
+https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/breast_cancer_final.ipynb
 
 ### Results Analysis And Decision
 In our work , we used NN, SVM, and KNN three machine learning techniques to early prevention and detection of breast cancer to find which method performs better that we can used to predict the new data. 
@@ -40,7 +46,7 @@ In our work , we used NN, SVM, and KNN three machine learning techniques to earl
   #### 1-Analyze the performance and evaluation 
  Tableau for accuracy 
 
-![Alt text](img\image-3.png)
+![Alt text](https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/img/image-3.png)
 
   
    #### • Machines learning techniques performance 
@@ -69,7 +75,7 @@ In our work , we used NN, SVM, and KNN three machine learning techniques to earl
        Test Set:        Accuracy: 94.32%
       Training Set: Accuracy: 99.24%
      ********
-    Analysis:
+ Analysis:
     The SVM performs well on both the test and training sets.
     Optimization results in a slight increase in test accuracy, indicating improvement.
     So we can use the optimized model to predict the new Data 
@@ -78,8 +84,8 @@ In our work , we used NN, SVM, and KNN three machine learning techniques to earl
         Test Set:Precision: 92%,Recall: 92%,F1-score: 92%,Accuracy: 92%
         Training Set:Precision: 100%,Recall: 100%,F1-score: 100%,Accuracy: 100%
         ********
-       Analysis:
-       KNN performs well on both the test and training sets, achieving high precision, recall, and accuracy.
+ Analysis:
+      KNN performs well on both the test and training sets, achieving high precision, recall, and accuracy.
    
 #### • Machines learning techniques evaluation 
 Neural Network (NN) consider the potential overfitting after optimization.we should evaluate 
@@ -98,10 +104,13 @@ Therefore, we have chosen the optimized SVM model for predicting in the new data
       New dataset =Breast_cancer_new
       
    ###  Accuracy on new dataset: 0.9497716894977168 
-   ![Alt text](image-4.png)
+   ![Alt text](https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/img/image-4.png)
 
         
       ####    Our analytics indicate that our model performs well with the new   dataset,       ###achieving a commendable accuracy of approximately 95%. However, a notable concern arises when examining the confusion matrix, revealing 11 instances in which the model produces both true positives and true negatives. This situation implies that the model fails to identify cases where cancer is present or incorrectly predicts the absence of cancer. Given the critical nature of this issue and its potential impact on patient outcomes, it is imperative to optimize our model further to mitigate and minimize such occurrences
+
+### Data Analysis Report 
+https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/technical%20report%20analysis.pdf
 
 
 

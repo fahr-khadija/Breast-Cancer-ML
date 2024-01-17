@@ -20,7 +20,7 @@ Breast cancer is a cancer that develops from breast tissue. Signs of breast canc
 Our workflow ensures an approach to breast tumor analysis, from data collection to deploying a predictive model for real-time predictions on new data. We divided on 7 steps :
 
     ###  1- Dataset Collection  
-         2- Data Preprocessing  DP
+         2- Data Preprocessing  DP 
          3-Exploratory Data Analysis  EDA
          4-Classification of prediction on 3 models SVM,NN,KNN
          5-Performance Evaluation  
@@ -32,6 +32,8 @@ Our workflow ensures an approach to breast tumor analysis, from data collection 
 ### Flow Implementation 
     The implementation is doing on the code bellow and it s deeply explained 
 https://github.com/fahr-khadija/Breast-Cancer-ML
+Preprocess function 
+
 ### Results Analysis And Decision
 In our work , we used NN, SVM, and KNN three machine learning techniques to early prevention and detection of breast cancer to find which method performs better that we can used to predict the new data. 
 
@@ -99,7 +101,7 @@ Therefore, we have chosen the optimized SVM model for predicting in the new data
    ![Alt text](image-4.png)
 
         
-            ####    Our analytics indicate that our model performs well with the new dataset,       achieving a commendable accuracy of approximately 95%. However, a notable concern arises when examining the confusion matrix, revealing 11 instances in which the model produces both true positives and true negatives. This situation implies that the model fails to identify cases where cancer is present or incorrectly predicts the absence of cancer. Given the critical nature of this issue and its potential impact on patient outcomes, it is imperative to optimize our model further to mitigate and minimize such occurrences
+      ####    Our analytics indicate that our model performs well with the new   dataset,       ###achieving a commendable accuracy of approximately 95%. However, a notable concern arises when examining the confusion matrix, revealing 11 instances in which the model produces both true positives and true negatives. This situation implies that the model fails to identify cases where cancer is present or incorrectly predicts the absence of cancer. Given the critical nature of this issue and its potential impact on patient outcomes, it is imperative to optimize our model further to mitigate and minimize such occurrences
 
 
 

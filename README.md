@@ -14,8 +14,8 @@ By integrating advanced computational models, we seek to  achieve early and high
 
  ### General Description
 Breast cancer is a cancer that develops from breast tissue. Signs of breast cancer may include a lump in the breast, a change in breast shape, dimpling of the skin, milk rejection, fluid coming from the nipple, a newly inverted nipple, or a red or scaly patch of skin ====for more information you can visit this health links https://en.wikipedia.org/wiki/Breast_cance
-![tumor](image.png)  
-![Alt text](image-5.png)
+![tumor](img\image.png)  
+![Alt text](img\image-5.png)
 ### Analyse breast tumours by Machine Learning 
 Our workflow ensures an approach to breast tumor analysis, from data collection to deploying a predictive model for real-time predictions on new data. We divided on 7 steps :
 
@@ -27,7 +27,7 @@ Our workflow ensures an approach to breast tumor analysis, from data collection 
          6-Best Model Generated 
          7-Predict on new Data 
   #### Schematic workflow diagram
-![Alt text](image-2.png)
+![Alt text](img\image-2.png)
 
 ### Flow Implementation 
     The implementation is doing on the code bellow and it s deeply explained 
@@ -40,7 +40,7 @@ In our work , we used NN, SVM, and KNN three machine learning techniques to earl
   #### 1-Analyze the performance and evaluation 
  Tableau for accuracy 
 
-![Alt text](image-3.png)
+![Alt text](img\image-3.png)
 
   
    #### • Machines learning techniques performance 
@@ -55,7 +55,7 @@ In our work , we used NN, SVM, and KNN three machine learning techniques to earl
         Test Set:       Accuracy: 92.05%,Loss: 0.3176
         Training Set: Accuracy: 100.00%,Loss: 0.0026
         ********
-     Analysis:
+ Analysis:
      The neural network performs well on the test and training sets before optimization.
      After optimization, there's a decrease in test accuracy, indicating potential overfitting during optimization. 
      However, the training accuracy reaches 100%, suggesting the model might be overfitting to the training data.

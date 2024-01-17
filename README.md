@@ -31,6 +31,8 @@ Our workflow ensures an approach to breast tumor analysis, from data collection 
 
 ### Flow Implementation 
     The implementation is doing on the code bellow and it s deeply explained , you can just load your csv file in first code and for  
+### Librarires version  
+ https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/Libraries.txt
 ### Preprocess function 
 https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/preprocess_fct.ipynb
 ###  The data used is breast_cancer_data_load.csv  to generate the best ML model 

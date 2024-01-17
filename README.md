@@ -18,6 +18,7 @@ healthcare outcomes.
  ### General Description
 Breast cancer is a cancer that develops from breast tissue. Signs of breast cancer may include a lump in the breast, a change in breast shape, dimpling of the skin, milk rejection, fluid coming from the nipple, a newly inverted nipple, or a red or scaly patch of skin ====for more information you can visit this health links https://en.wikipedia.org/wiki/Breast_cance
 
+
 # Interactive web page using Flask 
 ![flask_development_server_diagram](https://github.com/fahr-khadija/project3/assets/100168693/db652e80-600e-4494-a9c7-d2fe95571fde)
  ## Project structure

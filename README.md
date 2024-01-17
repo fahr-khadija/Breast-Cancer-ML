@@ -98,7 +98,7 @@ Therefore, we have chosen the optimized SVM model for predicting in the new data
       New dataset =Breast_cancer_new
       
    ###  Accuracy on new dataset: 0.9497716894977168 
-   ![Alt text](image-4.png)
+   ![Alt text](https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/img/image-4.png)
 
         
       ####    Our analytics indicate that our model performs well with the new   dataset,       ###achieving a commendable accuracy of approximately 95%. However, a notable concern arises when examining the confusion matrix, revealing 11 instances in which the model produces both true positives and true negatives. This situation implies that the model fails to identify cases where cancer is present or incorrectly predicts the absence of cancer. Given the critical nature of this issue and its potential impact on patient outcomes, it is imperative to optimize our model further to mitigate and minimize such occurrences

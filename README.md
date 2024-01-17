@@ -14,7 +14,8 @@ By integrating advanced computational models, we seek to  achieve early and high
 
  ### General Description
 Breast cancer is a cancer that develops from breast tissue. Signs of breast cancer may include a lump in the breast, a change in breast shape, dimpling of the skin, milk rejection, fluid coming from the nipple, a newly inverted nipple, or a red or scaly patch of skin ====for more information you can visit this health links https://en.wikipedia.org/wiki/Breast_cance
-![tumor](image.png)  ![Alt text](image-1.png)
+![tumor](image.png)  
+![Alt text](image-5.png)
 ### Analyse breast tumours by Machine Learning 
 Our workflow ensures an approach to breast tumor analysis, from data collection to deploying a predictive model for real-time predictions on new data. We divided on 7 steps :
 

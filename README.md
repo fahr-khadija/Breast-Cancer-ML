@@ -18,30 +18,42 @@ https://en.wikipedia.org/wiki/Breast_cancer#Multiple_primary_tumours
 ![tumor](https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/img/image.png)  
 ![Alt text]( https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/img/image-5.png)
 ### Analyse breast tumours by Machine Learning 
-Our workflow ensures an approach to breast tumor analysis, from data collection to deploying a predictive model for real-time predictions on new data. We divided on 7 steps :
 
-    ###  1- Dataset Collection  
-         2- Data Preprocessing  DP 
+   #### Our workflow ensures an approach to breast tumor analysis, from data collection to deploying a predictive model for real-time predictions on new data. We divided on 7 steps :
+
+         1-Dataset Collection (we use the data retrieve from SQL)
+         2-Data Preprocessing DP (we developp a fct that preprocess any new data'preprocess_data')
          3-Exploratory Data Analysis  EDA
          4-Classification of prediction on 3 models SVM,NN,KNN
-         5-Performance Evaluation  
-         6-Best Model Generated 
-         7-Predict on new Data 
+         5-Performance Evaluation (Accuracy , lost and confusion matrix) 
+         6-Best Model Generated (Compare the 3 models SVM,NN,KNN and choose the best one)
+         7-Predict on new Data (use the fct 'split-csv'to generate new data from original data )
   #### Schematic workflow diagram
 ![Alt text](https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/img/image-2.png)
 
 ### Flow Implementation 
-    The implementation is doing on the code bellow and it s deeply explained , you can just load your csv file in first code and for  
+     The implementation is doing on the final code  and it s deeply explained , 
+     you can just load your csv file in final code and launch it in collab  
+     the final code contain the generation of the best model and  prediction of  new data 
+   
+   All Librariries version used are listed in this text file 
 ### Librarires version  
  https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/Libraries.txt
+
+### split function 
+https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/split-csv.py
+
 ### Preprocess function 
-https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/preprocess_fct.ipynb
+https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/preprocessing_functions.py
 ###  The data used is breast_cancer_data_load.csv  to generate the best ML model 
  https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/breast_cancer_data_load.csv
 ###  The new data used is breast_cancer_data_new.csv to predict with the best ML model already generated 
  https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/breast_cancer_data_new.csv
-### the finale code is 
+### the finale code collab  (generation of best model ,prediction new data with it )
 https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/breast_cancer_final.ipynb
+
+### the code for prediction new data with the best model already generated (best_svm_model.pkl)
+https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/predict-new-data.ipynb
 
 ### Results Analysis And Decision
 In our work , we used NN, SVM, and KNN three machine learning techniques to early prevention and detection of breast cancer to find which method performs better that we can used to predict the new data. 
@@ -56,14 +68,34 @@ In our work , we used NN, SVM, and KNN three machine learning techniques to earl
 
    ####  Neural Network (NN):
          -------------------------------------------------------------------------------
-         Results
-        Before Optimization:
-        Test Set:        Accuracy: 94.32%,Loss: 0.1303
-        Training Set: Accuracy: 98.47% ,Loss: 0.0669
-        After Optimization:
-        Test Set:       Accuracy: 92.05%,Loss: 0.3176
-        Training Set: Accuracy: 100.00%,Loss: 0.0026
-        ********
+      Results
+      Before Optimization:
+      Test Set:        Accuracy: 94.32%,Loss: 0.1303
+      Training Set: Accuracy: 98.47% ,Loss: 0.0669
+
+         #optimisation 1
+         number_input_features = len( X_train_scaled[0])
+         hidden_nodes_layer1=80
+         hidden_nodes_layer2=30
+         hidden_nodes_layer3=21
+         model2 = tf.keras.models.Sequential()
+         # First hidden layer
+         model2.add(tf.keras.layers.Dense(units=hidden_nodes_layer1, input_dim=number_input_features, activation='relu'))
+         # Second hidden layer
+         model2.add(tf.keras.layers.Dense(units=hidden_nodes_layer2, activation='relu'))
+         # Output layer
+         model2.add(tf.keras.layers.Dense(units=1, activation='sigmoid'))
+         # Check the structure of the model
+         model2.summary()
+         # Compile the model
+         model1.compile(loss = 'binary_crossentropy', optimizer = 'adam', metrics=['accuracy'])
+         # Train the model
+          fit_model=model1.fit(X_train_scaled,y_train,validation_split=0.40, epochs=30)
+
+      After Optimization:
+      Test Set:       Accuracy: 92.05%,Loss: 0.3176
+      Training Set: Accuracy: 100.00%,Loss: 0.0026
+      ********
  Analysis:
      The neural network performs well on the test and training sets before optimization.
      After optimization, there's a decrease in test accuracy, indicating potential overfitting during optimization. 

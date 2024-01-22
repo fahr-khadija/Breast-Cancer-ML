@@ -155,7 +155,7 @@ K Nearest Neighbors (KNN) performs consistently well, showing high precision, re
 SVM and KNN both demonstrate strong performance, but SVM exhibits superior accuracy on both the test and training sets. 
 Therefore, we have chosen the optimized SVM model for predicting in the new dataset. 
 
-## • Predict on new Data Analyze
+# • Predict on new Data Analyze
       
       Applying the trained model to real-world cases for diagnosis and decision-making.  
       New dataset =Breast_cancer_new

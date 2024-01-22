@@ -56,6 +56,8 @@ https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project
  https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/breast_cancer_data_new.csv
 ### the finale code collab  (generation of best model ,prediction new data with it )
 https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/breast_cancer_final.ipynb
+### the best model generated 
+https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/best_svm_model.pkl
 
 ### the code for prediction new data with the best model already generated (best_svm_model.pkl)
 https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/predict-new-data.ipynb

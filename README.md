@@ -23,8 +23,8 @@ for more information you can visit this health links https://en.wikipedia.org/wi
 https://en.wikipedia.org/wiki/Breast_cancer#Multiple_primary_tumours
 ### Analyse breast tumours by Machine Learning 
 
-   #### Our workflow ensures an approach to breast tumor analysis, from data collection to deploying a predictive model for real-time predictions on new data. We divided on 7 steps :
-
+   #### Our workflow ensures an approach to breast tumor analysis, from data collection to deploying a predictive model for real-time predictions on new data.
+         We divid our workflow  on 7 steps :
          1-Dataset Collection (we use the data retrieve from SQL)
          2-Data Preprocessing DP (we developp a fct that preprocess any new data'preprocess_data')
          3-Exploratory Data Analysis  EDA

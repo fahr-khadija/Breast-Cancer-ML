@@ -73,12 +73,12 @@ In our work , we used NN, SVM, and KNN three machine learning techniques to earl
   
    #### • Machines learning techniques performance 
 
-   ####  Neural Network (NN):
+   ###  Neural Network (NN):
          -------------------------------------------------------------------------------
-      Results
-      Before Optimization:
-      Test Set:        Accuracy: 94.32%,Loss: 0.1303
-      Training Set: Accuracy: 98.47% ,Loss: 0.0669
+         Results
+         Before Optimization:
+         Test Set:        Accuracy: 94.32%,Loss: 0.1303
+         Training Set: Accuracy: 98.47% ,Loss: 0.0669
 
          #optimisation 1
          number_input_features = len( X_train_scaled[0])
@@ -99,12 +99,11 @@ In our work , we used NN, SVM, and KNN three machine learning techniques to earl
          # Train the model
           fit_model=model1.fit(X_train_scaled,y_train,validation_split=0.40, epochs=30)
 
-      After Optimization:
-      Test Set:       Accuracy: 92.05%,Loss: 0.3176
-      Training Set: Accuracy: 100.00%,Loss: 0.0026
-      ********
-    
- #### Analysis:
+        After Optimization:
+        Test Set:       Accuracy: 92.05%,Loss: 0.3176
+        Training Set: Accuracy: 100.00%,Loss: 0.0026
+      ********    
+    Analysis:
      The neural network performs well on the test and training sets before optimization.
      After optimization, there's a decrease in test accuracy, indicating potential overfitting 
      during optimization. 
@@ -112,7 +111,7 @@ In our work , we used NN, SVM, and KNN three machine learning techniques to earl
       training data.
 -------------------------------------------------------------------------------
  
- ####  Support Vector Machine (SVM):
+ ###  Support Vector Machine (SVM):
       Before Optimization:
       Test Set:        Accuracy: 93.18%
       Training Set: Accuracy: 98.47% 
@@ -138,7 +137,7 @@ In our work , we used NN, SVM, and KNN three machine learning techniques to earl
     Optimization results in a slight increase in test accuracy, indicating improvement.
     So we can use the optimized model to predict the new Data 
 
- ####  K Nearest Neighbors (KNN):
+ ###  K Nearest Neighbors (KNN):
         Test Set:Precision: 92%,Recall: 92%,F1-score: 92%,Accuracy: 92%
         Training Set:Precision: 100%,Recall: 100%,F1-score: 100%,Accuracy: 100%
         ********

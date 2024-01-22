@@ -28,8 +28,9 @@ https://en.wikipedia.org/wiki/Breast_cancer#Multiple_primary_tumours
          5-Performance Evaluation (Accuracy , lost and confusion matrix) 
          6-Best Model Generated (Compare the 3 models SVM,NN,KNN and choose the best one)
          7-Predict on new Data (use the fct 'split-csv'to generate new data from original data )
-  #### Schematic workflow diagram
-![Alt text](https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/img/image-2.png)
+   
+   #### Schematic workflow diagram
+  ![Alt text](https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/img/image-2.png)
 
 ### Flow Implementation 
      The implementation is doing on the final code  and it s deeply explained , 
@@ -96,10 +97,12 @@ In our work , we used NN, SVM, and KNN three machine learning techniques to earl
       Test Set:       Accuracy: 92.05%,Loss: 0.3176
       Training Set: Accuracy: 100.00%,Loss: 0.0026
       ********
- Analysis:
+   Analysis:
      The neural network performs well on the test and training sets before optimization.
-     After optimization, there's a decrease in test accuracy, indicating potential overfitting during optimization. 
-     However, the training accuracy reaches 100%, suggesting the model might be overfitting to the training data.
+     After optimization, there's a decrease in test accuracy, indicating potential overfitting 
+     during optimization. 
+     However, the training accuracy reaches 100%, suggesting the model might be overfitting to the 
+      training data.
 -------------------------------------------------------------------------------
  
  ####  Support Vector Machine (SVM):
@@ -158,9 +161,9 @@ Therefore, we have chosen the optimized SVM model for predicting in the new data
              #preprocessing new data with our function preprocess_data
              processed_data = preprocess_data(breast_cancer_new_df)
              # Review the DataFrame
-             breast_cancer_new_df.head(10)  
-
-      https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/predict-new-data.ipynb
+             breast_cancer_new_df.head(10)     
+      
+            https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/predict-new-data.ipynb
       
       
    ###  Accuracy on new dataset: 0.9497716894977168 

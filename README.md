@@ -156,11 +156,10 @@ SVM and KNN both demonstrate strong performance, but SVM exhibits superior accur
 Therefore, we have chosen the optimized SVM model for predicting in the new dataset. 
 
 # • Predict on new Data Analyze
-      
-      Applying the trained model to real-world cases for diagnosis and decision-making.  
-      New dataset =Breast_cancer_new
-      if you launch the code breast_cancer_final.ipynb in collab enter the new dataset 
-      if you want to  launch the file independently of the trainned model  use the code predict-new-data.ipynb   and just integrate your new data instead of ours 'breast_cancer_data_new.csv' ,
+Applying the trained model to real-world cases for diagnosis and decision-making.  
+New dataset =Breast_cancer_data_new
+if you launch the code breast_cancer_final.ipynb in collab enter the new dataset 
+if you want to  launch the file independently of the trainned model  use the code predict-new-data.ipynb and just integrate your new data instead of ours 
 
              # Read the CSV file from the Resources folder into a Pandas DataFrame
              breast_cancer_new_df = pd.read_csv('breast_cancer_data_new.csv')

@@ -42,7 +42,7 @@ https://en.wikipedia.org/wiki/Breast_cancer#Multiple_primary_tumours
      the final code contain the generation of the best model and  prediction of  new data 
    
    All Librariries version used are listed in this text file 
-### Librarires version  
+### Libraries version  
  https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/Libraries.txt
 
 ### split function 

@@ -104,6 +104,18 @@ Therefore, we have chosen the optimized SVM model for predicting in the new data
       
       Applying the trained model to real-world cases for diagnosis and decision-making.  
       New dataset =Breast_cancer_new
+      if you launch the code breast_cancer_final.ipynb in collab enter the new dataset 
+      if you want to  launch the file independently of the trainned model  use the code predict-new-data.ipynb   and just integrate your new data instead of ours 'breast_cancer_data_new.csv' ,
+
+             # Read the CSV file from the Resources folder into a Pandas DataFrame
+             breast_cancer_new_df = pd.read_csv('breast_cancer_data_new.csv')
+             #preprocessing new data with our function preprocess_data
+             processed_data = preprocess_data(breast_cancer_new_df)
+             # Review the DataFrame
+             breast_cancer_new_df.head(10)  
+
+      https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/Breast-cancer-project/predict-new-data.ipynb
+      
       
    ###  Accuracy on new dataset: 0.9497716894977168 
    ![Alt text](https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/img/image-4.png)

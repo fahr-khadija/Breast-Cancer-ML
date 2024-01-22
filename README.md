@@ -103,12 +103,11 @@ In our work , we used NN, SVM, and KNN three machine learning techniques to earl
         Test Set:       Accuracy: 92.05%,Loss: 0.3176
         Training Set: Accuracy: 100.00%,Loss: 0.0026
       ********    
-   Analysis:
-     The neural network performs well on the test and training sets before optimization.
-     After optimization, there's a decrease in test accuracy, indicating potential overfitting 
-     during optimization. 
-     However, the training accuracy reaches 100%, suggesting the model might be overfitting to the 
-      training data.
+   ##### Analysis:
+    The neural network performs well on the test and training sets before optimization.
+    After optimization, there's a decrease in test accuracy, indicating potential overfitting 
+    during optimization. 
+    However, the training accuracy reaches 100%, suggesting the model might be overfitting to the training data.
 -------------------------------------------------------------------------------
  
  ###  Support Vector Machine (SVM):

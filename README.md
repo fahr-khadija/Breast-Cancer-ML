@@ -70,9 +70,22 @@ In our work , we used NN, SVM, and KNN three machine learning techniques to earl
 -------------------------------------------------------------------------------
  
  ####  Support Vector Machine (SVM):
-       Before Optimization:
-       Test Set:        Accuracy: 93.18%
-       Training Set: Accuracy: 98.47%
+      Before Optimization:
+      Test Set:        Accuracy: 93.18%
+      Training Set: Accuracy: 98.47% 
+      ************************88
+          #Optimisation
+          #Define the parameter grid
+            param_grid = {'C': [0.1, 1, 10, 100], 'gamma': [0.001, 0.01, 0.1, 1], 'kernel': ['linear', 'rbf', 'poly']}
+          # Create a GridSearchCV object
+          grid_search = GridSearchCV(svm_model, param_grid, cv=3, verbose=3)
+          # Fit the GridSearchCV object to the training data
+          grid_search.fit(X_train_scaled, y_train)
+          # Get the best parameters and the best model from the grid search
+          best_params = grid_search.best_params_
+          best_model = grid_search.best_estimator_
+
+    
        After Optimization:
        Test Set:        Accuracy: 94.32%
       Training Set: Accuracy: 99.24%

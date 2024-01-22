@@ -13,7 +13,8 @@ Machine learning (ML) techniques have demonstrated the potential to dramatically
 By integrating advanced computational models, we seek to  achieve early and highly accurate diagnosis of breast cancer patients, thereby reducing waiting times and minimizing human and technical errors in the diagnostic process. This predictive model aims to assist doctors in efficiently diagnosing breast cancer and enable patients to receive early treatment.
 
  ### General Description
-Breast cancer is a cancer that develops from breast tissue. Signs of breast cancer may include a lump in the breast, a change in breast shape, dimpling of the skin, milk rejection, fluid coming from the nipple, a newly inverted nipple, or a red or scaly patch of skin ====for more information you can visit this health links https://en.wikipedia.org/wiki/Breast_cance
+Breast cancer is a cancer that develops from breast tissue. Signs of breast cancer may include a lump in the breast, a change in breast shape, dimpling of the skin, milk rejection, fluid coming from the nipple, a newly inverted nipple, or a red or scaly patch of skin ====for more information you can visit this health links https://en.wikipedia.org/wiki/Breast_cancer
+https://en.wikipedia.org/wiki/Breast_cancer#Multiple_primary_tumours
 ![tumor](https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/img/image.png)  
 ![Alt text]( https://github.com/fahr-khadija/Breast-Cancer-ML/blob/main/img/image-5.png)
 ### Analyse breast tumours by Machine Learning 
